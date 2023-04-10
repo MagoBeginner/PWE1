@@ -1,0 +1,60 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+  }
+  /* Estilos del menú */
+  body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #666;
+      line-height: 1.8;
+      background-color: #ffffffdd;
+  }
+  
+  
+  .navbar {
+      background-color: #fa7c15dd;
+      padding: 15px 0;
+  
+      margin-bottom: 0;
+      background-color: #fa7c15dd;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px;
+      line-height: 1.42857143;
+      letter-spacing: 1px;
+      border-radius: 0;
+    }
+    .navbar-brand {
+      color: #fa7c15dd;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    
+    /* Estilos del carrusel */
+    .carousel-indicators li {
+      background-color: #9bdfff;
+      border: none;
+      max-width: 100%;
+      height: auto;
+  
+    }
+    .carousel-indicators .active {
+      background-color: #b37d7d;
+      border: none;
+    }
+    .carousel-caption h3 {
+      font-weight: bold;
+      font-size: 50px;
+    }
+    
+    /* Estilos del pie de página */
+    footer {
+      text-align: center;
+      color: #FFFFFF;
+      background-color: #fa7c15dd;
+      padding: 15px 0;
+    }
+  
