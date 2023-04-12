@@ -12,7 +12,14 @@
       background-color: #ffffffdd;
   }
   
-  
+  .salute{
+
+    text-align: right;
+    align-items: flex;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
   .navbar {
       background-color: #fa7c15dd;
       padding: 15px 0;
@@ -32,13 +39,14 @@
       font-size: 20px;
     }
     
-    
+    img{
+      object-fit: cover;
+    }
     /* Estilos del carrusel */
     .carousel-indicators li {
       background-color: #9bdfff;
       border: none;
       max-width: 100%;
-      height: auto;
   
     }
     .carousel-indicators .active {
@@ -49,6 +57,12 @@
       font-weight: bold;
       font-size: 50px;
     }
+
+    .texto{
+      height: 33.6vh;
+      max-width: 100%;
+    }
+    
     
     /* Estilos del pie de página */
     footer {

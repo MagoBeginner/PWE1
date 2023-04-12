@@ -15,16 +15,15 @@
 <!-- Menú -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html">Taller Rayo Makween</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Taller Makween</a>
+    <img src="log.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-  </button>
+    </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-              <a class="nav-link" href="Nosotros.html">Nosotros</a>
-          </li>
           <li class="nav-item">
               <a class="nav-link" href="Trabajos.html">Trabajos</a>
           </li>
@@ -32,6 +31,10 @@
               <a class="nav-link" href="Contacto.html">Contacto</a>
           </li>
       </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
   </div>
 </nav>
 
@@ -45,21 +48,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <a href="galeria.html"><img src="auto1.jpg" class="d-block w-100" width="30" height="500"></a>
+        <a href="trabajos.html"><img src="auto1.jpg" class="d-block w-100" width="30" height="500"></a>
         <div class="carousel-caption">
           <h5>Hudson Hornet</h5>
           <p>####</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="galeria.html"><img src="auto2.jpg" class="d-block w-100" width="30" height="500"></a>
+        <a href="trabajos.html"><img src="auto2.jpg" class="d-block w-100" width="30" height="500"></a>
         <div class="carousel-caption">
           <h5>King</h5>
           <p>###</p>
         </div>
       </div>
       <div class="carousel-item">
-        <a href="galeria.html"><img src="auto3.jpg" class="d-block w-100" width="30" height="500"></a>
+        <a href="trabajos.html"><img src="auto3.jpg" class="d-block w-100" width="30" height="500"></a>
         <div class="carousel-caption">
           <h5>Ramón</h5>
           <p>###</p>
@@ -77,8 +80,12 @@
 </a>
 <!-- Debajo de las fotos -->
 
-<h7>Nuestros servicios</h7>
+<div class="texto">
+<h7><span>Nuestros servicios</span></h7>
 <p> Ofrecemos el mejor cuidado a su vehiculo, además de modificarlo como usted guste.</p>
+</div>
+
+
 
 <!-- Pie de página -->
 

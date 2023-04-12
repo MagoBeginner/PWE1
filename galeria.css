@@ -5,10 +5,15 @@
     font-family: sans-serif;
 
 }
+.form-control me-2{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 .navbar {
     background-color: #fa7c15dd;
     padding: 15px 0;
-
     margin-bottom: 0;
     background-color: #fffefddd;
     z-index: 9999;
